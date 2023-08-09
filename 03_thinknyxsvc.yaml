@@ -7,7 +7,6 @@ metadata:
 spec:
   ports:
   - name: testsvcagain
-    nodePort: 30011
     port: 80
     protocol: TCP
     targetPort: 80
