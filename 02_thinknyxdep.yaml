@@ -4,7 +4,6 @@ metadata:
   labels:
     app: thinknyxdemoagain
   name: thinknyxdemoagain
-  namespace: testagain
 spec:
   replicas: 2
   selector:

@@ -4,7 +4,6 @@ metadata:
   labels:
     app: thinknyxdemoagain
   name: thinknyxdemosvcagain
-  namespace: testagain
 spec:
   ports:
   - name: testsvcagain
