@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: thinknyxdemoagain
+  name: thinknyxdemosvcagain
+  namespace: testagain
+spec:
+  ports:
+  - name: testsvcagain
+    nodePort: 30011
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: thinknyxdemoagain
+  type: NodePort
